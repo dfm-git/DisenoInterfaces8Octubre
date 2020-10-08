@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    android:background="@android:color/holo_purple">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:background="@android:color/holo_blue_bright"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="visible"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="true"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:maxWidth="250dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="Columna1, fila1 - eeeeeeeeeeeeeeee
+                eeeeeeeeeeeeeee
+                eeeeeeeeeeeeeeeee
+                eeeeeeeeeeelemento 1"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Columna1, fila1 - elemento 2"/>
+        </LinearLayout>
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_dark"
+            android:layout_column="2"
+            android:text="Columna1, fila2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_column="2"
+            android:text="Columna1, fila2"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_column="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fila 3, columnas 1 y 2"
+            android:layout_span="2"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+    </TableRow>
+
+
+
+</TableLayout>
